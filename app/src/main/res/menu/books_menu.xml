@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <item android:id="@+id/categories"
+     android:icon="@drawable/ic_menu"
+     android:title="Cartegories"
+     app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/cart"
+        android:title="Cartegories"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/checkout"
+        android:title="Checkout"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/settings"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/about"
+        android:title="About"
+        app:showAsAction="never" />
+</menu>
